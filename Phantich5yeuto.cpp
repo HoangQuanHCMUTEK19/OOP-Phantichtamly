@@ -27,7 +27,7 @@ class O: public Yeuto
     void xuat()
     {
         Yeuto::xuat();
-        cout <<" - Yeu to O: ";
+        cout <<" - Yeu to O (San sang trai nghiem): ";
         if (chiso > 70)
             cout <<"Nguy co cao"<<endl;
         else
@@ -44,7 +44,7 @@ class C: public Yeuto
     void xuat()
     {
         Yeuto::xuat();
-        cout <<" - Yeu to C: ";
+        cout <<" - Yeu to C(Tu chu tan tam): ";
         if (chiso > 70)
             cout <<"Nguy co cao"<<endl;
         else
@@ -68,7 +68,7 @@ class E: public Yeuto
     void xuat()
     {
         Yeuto::xuat();
-        cout <<" - Yeu to E: ";
+        cout <<" - Yeu to E(Huong ngoai): ";
         if (chiso > 70)
             cout <<"Nguy co cao"<<endl;
         else
@@ -92,7 +92,7 @@ class A: public Yeuto
     void xuat()
     {
         Yeuto::xuat();
-        cout <<" - Yeu to A: ";
+        cout <<" - Yeu to A(Hoat dong de chiu): ";
         if (chiso > 70)
             cout <<"Nguy co cao"<<endl;
         else
@@ -109,7 +109,7 @@ class N: public Yeuto
     void xuat()
     {
         Yeuto::xuat();
-        cout <<" - Yeu to N: ";
+        cout <<" - Yeu to N(Bat on cam xuc): ";
         if (chiso > 70)
             cout <<"Nguy co cao"<<endl;
         else
@@ -124,7 +124,6 @@ class N: public Yeuto
          return 1;
         return 0;
     }
-
 
 };
 class nguoi
